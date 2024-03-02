@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw9-web"
+version = "0.1.0"
+description = ""
+authors = ["BogSyn <ravlykplus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scrapy = "^2.11.1"
+pymongo = "^4.6.2"
+redis = "^5.0.2"
+redis-lru = "^0.1.2"
+black = {extras = ["d"], version = "^24.2.0"}
+mongoengine = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
